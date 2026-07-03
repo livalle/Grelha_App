@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="250" fill="#FF6B35"/>
+
+  <!-- Grill -->
+  <rect x="100" y="320" width="312" height="20" rx="4" fill="#78716C"/>
+  <rect x="110" y="340" width="8" height="80" rx="2" fill="#78716C"/>
+  <rect x="394" y="340" width="8" height="80" rx="2" fill="#78716C"/>
+  <rect x="180" y="330" width="6" height="60" rx="2" fill="#5C5850"/>
+  <rect x="260" y="330" width="6" height="60" rx="2" fill="#5C5850"/>
+  <rect x="340" y="330" width="6" height="60" rx="2" fill="#5C5850"/>
+
+  <!-- Grill grates -->
+  <line x1="120" y1="340" x2="392" y2="340" stroke="#5C5850" stroke-width="4"/>
+  <line x1="120" y1="355" x2="392" y2="355" stroke="#5C5850" stroke-width="4"/>
+  <line x1="120" y1="370" x2="392" y2="370" stroke="#5C5850" stroke-width="4"/>
+
+  <!-- Burger patty on grill -->
+  <ellipse cx="200" cy="310" rx="50" ry="20" fill="#8B4513"/>
+  <ellipse cx="200" cy="305" rx="45" ry="16" fill="#A0522D"/>
+
+  <!-- Second burger patty -->
+  <ellipse cx="320" cy="310" rx="50" ry="20" fill="#8B4513"/>
+  <ellipse cx="320" cy="305" rx="45" ry="16" fill="#A0522D"/>
+
+  <!-- Sizzle effect -->
+  <circle cx="150" cy="290" r="8" fill="#FFD700" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="370" cy="285" r="6" fill="#FFD700" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="0.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Girl mascot (simple, from shoulders up) -->
+  <!-- Body/Apron -->
+  <ellipse cx="256" cy="290" rx="60" ry="40" fill="#FF6B35"/>
+  <rect x="230" y="270" width="52" height="30" rx="4" fill="#E55A2B"/>
+
+  <!-- Neck -->
+  <rect x="240" y="200" width="32" height="35" rx="4" fill="#FFDAB9"/>
+
+  <!-- Head -->
+  <circle cx="256" cy="150" r="55" fill="#FFDAB9"/>
+
+  <!-- Hair -->
+  <path d="M201 140 Q201 80 256 80 Q311 80 311 140 L311 185 Q256 200 201 185 Z" fill="#4A3728"/>
+  <path d="M201 140 Q210 165 201 185" fill="#4A3728" stroke="#4A3728" stroke-width="8"/>
+  <path d="M311 140 Q302 165 311 185" fill="#4A3728" stroke="#4A3728" stroke-width="8"/>
+
+  <!-- Cap -->
+  <ellipse cx="256" cy="95" rx="60" ry="22" fill="#FF6B35"/>
+  <rect x="196" y="88" width="120" height="20" rx="4" fill="#FF6B35"/>
+  <rect x="186" y="90" width="140" height="14" rx="6" fill="#E55A2B"/>
+
+  <!-- Face -->
+  <circle cx="238" cy="145" r="6" fill="#4A3728"/>
+  <circle cx="274" cy="145" r="6" fill="#4A3728"/>
+  <path d="M244 168 Q256 178 268 168" fill="none" stroke="#E55A2B" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Cheeks -->
+  <circle cx="225" cy="160" r="8" fill="#FFB6A3" opacity="0.6"/>
+  <circle cx="287" cy="160" r="8" fill="#FFB6A3" opacity="0.6"/>
+
+  <!-- Spatula in hand -->
+  <rect x="330" y="220" width="8" height="70" rx="2" fill="#78716C" transform="rotate(15 334 255)"/>
+  <ellipse cx="355" cy="210" rx="25" ry="18" fill="#A8A29E" transform="rotate(15 355 210)"/>
+</svg>
